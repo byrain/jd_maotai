@@ -1,4 +1,4 @@
-# Jd_maotai
+# Jd_Seckill 京东秒杀
 
 ##### 非常感谢原作者 https://github.com/zhou-xiaojun/jd_mask 提供的代码
 
@@ -6,7 +6,7 @@
 
 - 登陆京东商城（[www.jd.com](http://www.jd.com/)）
   - cookies登录 (需要自己手动获取)
-- 预约茅台
+- 预约
   - 定时自动预约
 - 秒杀预约后等待抢购
   - 定时开始自动抢购
@@ -14,6 +14,8 @@
 ## 运行环境
 
 - [Python 3](https://www.python.org/)
+- 适配 Python 2.7
+
 
 ## 第三方库
 
@@ -28,7 +30,7 @@
 
 (2)cookies_string,sku_id,DEFAULT_USER_AGENT(和cookie获取同一个地方就会看到.直接复制进去就可以了) 
 >这里注意每次扫码登陆后都需要重新获取cookies_string,其他两个不用  
->sku_id我已经按照茅台的填好 
+>sku_id  默认设置为 茅台
 
 (3)配置一下时间
  
